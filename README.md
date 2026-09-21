@@ -190,10 +190,6 @@ This is a working first-pass research prototype, not a finished fact-checking pl
 - [Project guide and pre-push checklist](docs/PROJECT_GUIDE.md)
 - [Project roadmap](docs/PROJECT_PLAN.md)
 
-## Resume-ready description
-
-> Built NewsLens, an AI-assisted news research application using FastAPI, Tavily web search, and local Ollama models to retrieve sources, extract article text, generate evidence-aware summaries, and surface uncertainty with citations.
-
 ## Before pushing
 
 Never commit `.env` or API keys. Review [the pre-push checklist](docs/PROJECT_GUIDE.md#before-you-push) before publishing the repository.
