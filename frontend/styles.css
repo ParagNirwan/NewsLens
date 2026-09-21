@@ -260,6 +260,7 @@ small {
 .facts {
   border: 1px solid var(--ink);
   padding: 24px;
+  margin-bottom: 40px;
   margin: 36px 0 44px;
 }
 

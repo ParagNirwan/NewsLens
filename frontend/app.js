@@ -128,6 +128,16 @@ function render(r) {
       <h2>${esc(r.question)}</h2>
       <p>${esc(r.executive_summary)}</p>
     </div>
+    <div class="research-grid">
+      <section>
+        <h4>Research trace</h4>
+        <ol class="trace">${ev}</ol>
+      </section>
+      <section>
+        <h4>Key claims</h4>
+        ${cl}
+      </section>
+    </div>
     <section class="facts">
       <h4>Established facts</h4>
       <ul>${r.established_facts.map(x => `<li>${esc(x)}</li>`).join('')}</ul>
