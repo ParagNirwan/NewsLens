@@ -185,6 +185,7 @@ h4 {
   padding: 0;
   margin: 0;
   list-style: none;
+  max-width: 820px;
 }
 
 .trace li {
@@ -259,7 +260,7 @@ small {
 .facts {
   border: 1px solid var(--ink);
   padding: 24px;
-  margin-bottom: 40px;
+  margin: 36px 0 44px;
 }
 
 .facts ul {
@@ -267,9 +268,22 @@ small {
   font: 14px/1.7 Fraunces, serif;
 }
 
+.claims-section {
+  border-top: 1px solid var(--ink);
+  padding-top: 14px;
+  margin-bottom: 44px;
+}
+
 .sources {
   border-top: 1px solid var(--ink);
   padding-top: 14px;
+  margin-bottom: 44px;
+}
+
+.trace-section {
+  border-top: 1px solid var(--ink);
+  padding-top: 14px;
+  margin-bottom: 40px;
 }
 
 .source {
