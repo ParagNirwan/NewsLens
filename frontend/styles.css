@@ -260,7 +260,6 @@ small {
 .facts {
   border: 1px solid var(--ink);
   padding: 24px;
-  margin-bottom: 40px;
   margin: 36px 0 44px;
 }
 
@@ -272,7 +271,7 @@ small {
 .claims-section {
   border-top: 1px solid var(--ink);
   padding-top: 14px;
-  margin-bottom: 44px;
+  margin: 44px 0;
 }
 
 .sources {
