@@ -128,6 +128,16 @@ function render(r) {
       <h2>${esc(r.question)}</h2>
       <p>${esc(r.executive_summary)}</p>
     </div>
+    <div class="research-grid">
+      <section>
+        <h4>Research trace</h4>
+        <ol class="trace">${ev}</ol>
+      </section>
+      <section>
+        <h4>Key claims</h4>
+        ${cl}
+      </section>
+    </div>
     <section class="claims-section">
       <h4>Key claims</h4>
       ${cl}
@@ -136,6 +146,10 @@ function render(r) {
       <h4>Established facts</h4>
       <ul>${r.established_facts.map(x => `<li>${esc(x)}</li>`).join('')}</ul>
       <p><b>Important uncertainty:</b> ${esc(r.uncertainty)}</p>
+    </section>
+    <section class="claims-section">
+      <h4>Key claims</h4>
+      ${cl}
     </section>
     <section class="sources">
       <h4>Source record</h4>
