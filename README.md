@@ -190,6 +190,3 @@ This is a working first-pass research prototype, not a finished fact-checking pl
 - [Project guide and pre-push checklist](docs/PROJECT_GUIDE.md)
 - [Project roadmap](docs/PROJECT_PLAN.md)
 
-## Before pushing
-
-Never commit `.env` or API keys. Review [the pre-push checklist](docs/PROJECT_GUIDE.md#before-you-push) before publishing the repository.
